@@ -1,0 +1,7 @@
+.first-red{
+    background-color: brown;
+}
+
+.first-red .first-blue{
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,48 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Assignment-2/beautiful-view-empire-states-skyscrapers-new-york-city.jpg);
+    background-size: cover;
+}
+.container {
+    background-color: white;
+    width: 700px;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: space-around; 
+    border-radius: 10px;
+}
+
+.input-field{
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    background-color: #DBDFEA;
+    border: none;
+    border-radius: 20px;
+}
+.submit{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.image {
+    width: 400px;
+    height: auto;
+}
+
+#freeform {
+    background-color: #DBDFEA;
+    border-radius: 8px;
+    padding: 8px 14px;
+    padding-right: 5px;
+    border: none;
+}

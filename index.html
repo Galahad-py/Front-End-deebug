@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DEEBUG INSTITUTE SURVEY</h1>
+
+    <div class="container">
+        <p>Let us know how to improve things around here</p>
+        <form action="">
+            <label for="name">Enter your name: </label>
+            <input type="text" id="name" value="Enter your name" class="adjust"> <br><br>
+
+            <label for="email">Enter your email: </label>
+            <input type="text" id="email" value="Enter your email" class="adjust"> <br><br>
+
+            <label for="department">Enter your department: </label>
+            <select name="department" class="adjust">
+                <option value="computer engineering">computer engineering</option>
+                <option value="civil engineering">civil engineering</option>
+                <option value="agric engineering">agric engineering</option>
+            </select><br><br>
+
+            <label for="role">which option best describes your current role: </label>
+            <select name="role" class="adjust">
+            <option value="teacher">teacher</option>
+            <option value="student" selected>student</option>
+            <option value="worker">worker</option>
+            </select> <br><br>
+
+            <div class="recon">
+                <label for="">How likely is that you would recommend deebug to a friend</label>
+                <div>
+                    <input type="radio">Definitely <br>
+                    <input type="radio">Maybe <br>
+                    <input type="radio">Not sure <br>
+                </div>
+            </div> <br>
+
+            <label for="role">whiat course are you currently: </label>
+            <select name="role" class="adjust">
+                <option value="">select an option</option>
+            </select> <br><br>
+            
+            <div class="improvement">
+                <label for="">Things that should be improved in the future <span id="text">(check those that apply)</span></label>
+
+                <div>
+                    <input type="checkbox">Definitely <br>
+                    <input type="checkbox">Maybe <br>
+                    <input type="checkbox">Not sure <br>
+                </div>
+            </div>
+        </form>
+
+        <input type="submit" class="submit-button">
+    </div>
+
+</body>
+</html>
